@@ -33,4 +33,9 @@ public class HttpServletResponse {
 		out.write(("\n").getBytes());
 		out.write((caw.toString()).getBytes());
 	}
+
+	public void sendRedirect(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }
